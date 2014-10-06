@@ -1,0 +1,1 @@
+This is a test project to show how you can configure the groovy view resolver for your mvc controller tests without using the `@EnableAutoConfiguration`.
