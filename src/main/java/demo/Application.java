@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan
+@ComponentScan(value = {"demo.web", "demo.service"})
 @EnableAutoConfiguration
 public class Application {
 
